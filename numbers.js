@@ -12,10 +12,9 @@ console.log(`3.Генерирование: ${randomNum}`);
 
 const check1 = isNaN("100" / 5); 
 const check2 = isNaN("сто" / 5); 
-console.log("4.isNaN('100' / 5):", check1);
-console.log("   isNaN('сто' / 5):", check2);
+console.log("4.isNaN('100' / 5)", check1);
+console.log("  isNaN('сто' / 5)", check2);
 
 const numbers = [14, -3, 77, 0, -100, 42];
-const maxVal = Math.max(...numbers);
-const minVal = Math.min(...numbers);
-console.log(`5.Максимум: ${maxVal}, Минимум: ${minVal}`);
+console.log("5.Максимум:", Math.max(...numbers));
+console.log("  Минимум:", Math.min(...numbers));
