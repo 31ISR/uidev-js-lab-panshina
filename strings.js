@@ -21,6 +21,6 @@ const endsWithDev = jobTitle.endsWith("разработчик");
 console.log(`4. Начинается на 'Node': ${startsWithNode}`); 
 console.log(`Заканчивается на 'разработчик': ${endsWithDev}`);
 
-const accountNumber = 42;
-const paddedAccount = accountNumber.toString().padStart(8, "0");
-console.log("5.", paddedAccount);
+const numbersList = [12, 45, 7, 33, 18];
+console.log("5. Больше 40 (some):", numbersList.some(n => n > 40));
+console.log("Больше 5 (every):", numbersList.every(n => n >5));
